@@ -9,7 +9,7 @@ from fastapi.responses import JSONResponse
 
 
 # Used Files:
-df_reviews= pd.read_parquet(r"C:.\CleanDatasets\df_reviews_l.parquet")
+df_reviews= pd.read_parquet(r"C:CleanDatasets\df_reviews_l.parquet")
 
 # Home presentation : 
 def presentation():
