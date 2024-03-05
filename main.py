@@ -12,7 +12,7 @@ from fastapi.responses import JSONResponse
 df_reviews= pd.read_parquet('CleanDatasets/df_reviews_l.parquet')
 df_funct_dev = pd.read_parquet('df_funct_dev.parquet')
 df_expenses_items = pd.read_parquet('df_expenses_items.parquet')
-
+df_recommendation= pd.read_csv('steam_games.csv')
 # Home presentation : 
 def presentation():
     '''
